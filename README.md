@@ -2,9 +2,11 @@
 
 # Setup
 
-First, use the terminal to install requirements using: pip install -r requirements.txt
+First, ensure you have python 3 downloaded with pip3 or pip.
 
-Once this is done, you should be able to run the file, and open the webpage at http://0.0.0.0:8080/
+Use the terminal to install requirements using: pip install -r requirements.txt or pip3 install -r requirements.txt
+
+Once this is done, run main.py, and open the webpage at http://0.0.0.0:8080/
 
 # Testing
 
