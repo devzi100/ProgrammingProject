@@ -8,6 +8,10 @@ Use the terminal to install requirements using: pip install -r requirements.txt 
 
 Once this is done, run main.py, and open the webpage at http://0.0.0.0:8080/
 
+username: admin
+
+password: admin
+
 # Testing
 
 Navigate to https://deven-dattani.atlassian.net/ and log in using the account: 
