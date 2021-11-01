@@ -1,0 +1,4 @@
+requests>=2.26.0
+dash>=2.0.0
+plotly>=5.1.0
+dash-auth>=1.4.1

@@ -1,0 +1,85 @@
+head,
+body {
+	background-color: black
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+#PriceText {
+	font-size: 150px;
+	padding: 0%;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+#outercontainer {
+	display: grid;
+	grid-template-columns: 0.9fr 0.9fr 1.2fr;
+	grid-template-rows: 40px 415px 500px;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas: "Title Title Title" "StockPrice StockPrice ProgressPieChart" "IssueTypeBarGraph StockGraph AssigneeDataTable";
+}
+#Title {
+	grid-area: Title;
+}
+
+#StockPrice {
+	grid-area: StockPrice;
+}
+
+#ProgressPieChart {
+	grid-area: ProgressPieChart;
+}
+
+#IssueTypeBarGraph {
+	grid-area: IssueTypeBarGraph;
+}
+
+#StockGraph {
+	grid-area: StockGraph;
+}
+
+#AssigneeDataTable {
+	grid-area: AssigneeDataTable;
+}
+
+.main-svg {
+	background: transparent !important;
+	height: 500px;
+}
+
+.js-line {
+	stroke: white !important;
+}
+
+text {
+	fill: white !important;
+	font-size: 20px !important;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner td,
+.dash-spreadsheet-container .dash-spreadsheet-inner th {
+	background-color: transparent !important;
+	font-family: sans-serif !important;
+}
+
+#StockPrice,
+div#AssigneeTable,
+#IssueTypeBarGraph,
+#StockGraph,
+#ProgressPieChart {
+	background-color: black;
+	border: 3px solid #242424;
+	border-radius: 50px;
+	margin: 5px;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner.dash-fill-width .cell table {
+	width: 75% !important;
+	margin-left: 20%;
+}
+
+#Title>h1 {
+	margin: 0;
+}
